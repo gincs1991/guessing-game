@@ -1,7 +1,9 @@
 import { useState } from "react";
 import './App.css';
 
-const maxNumber = 100; 
+const maxNumber = 100;
+
+// TODO: Add comment
 
 function App() {
   const [guess, setGuess] = useState();
